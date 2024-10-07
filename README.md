@@ -1,13 +1,13 @@
-#Book Store Management API
+# Book Store Management API
 This project is a backend API for a book store management system. The API is built using Node.js and Express, with MongoDB as the database. It handles operations related to managing books, such as adding, updating, deleting books, and retrieving book information.
 
-##Features
+## Features
 User Authentication: Users can register and log in to access the API.
 CRUD Operations on Books: You can create, read, update, and delete books.
 Borrow/Return Books: Users can borrow and return books (eBooks).
 Validation and Error Handling: Input validation and error handling are implemented to ensure data integrity.
 
-##Project Structure
+## Project Structure
 ├── controllers/        # Contains all the controller logic
 ├── models/             # Defines the data schemas (Mongoose models)
 ├── routes/             # Defines API routes for books and authentication
@@ -19,7 +19,7 @@ Validation and Error Handling: Input validation and error handling are implement
 ├── package.json        # Project metadata and dependencies
 └── vercel.json         # Configuration file for Vercel deployment
 
-##Prerequisites
+## Prerequisites
 Make sure you have the following installed:
 
 Node.js (v14 or higher)
