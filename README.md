@@ -7,18 +7,6 @@ CRUD Operations on Books: You can create, read, update, and delete books.
 Borrow/Return Books: Users can borrow and return books (eBooks).
 Validation and Error Handling: Input validation and error handling are implemented to ensure data integrity.
 
-## Project Structure
-├── controllers/        # Contains all the controller logic
-├── models/             # Defines the data schemas (Mongoose models)
-├── routes/             # Defines API routes for books and authentication
-├── services/           # Business logic for interacting with the database
-├── middlewares/        # Custom middleware for validation
-├── validations/        # Input validation schemas
-├── db/                 # MongoDB connection setup
-├── server.js           # Main server file
-├── package.json        # Project metadata and dependencies
-└── vercel.json         # Configuration file for Vercel deployment
-
 ## Prerequisites
 Make sure you have the following installed:
 
