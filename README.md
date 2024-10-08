@@ -49,13 +49,4 @@ Return a Book: PUT /api/books/return/:id
 Error Handling
 If any errors occur during the request (e.g., missing fields or invalid IDs), the API will return an error message with a status code of 400.
 
-Example error response:
 
-json
-Copy code
-{
-  "success": false,
-  "message": "Error message here"
-}
-Deployment
-To deploy this API using Vercel:
